@@ -109,7 +109,7 @@ df.ai.transform("Pivot the data by product and the revenue for each product").sh
 | Cellphone |   6000 | 5000 |     6500 | 3000 |    4500 |
 | Tablet    |   1500 | 5500 |     2500 | 4000 |    null |
 
-For a detailed walkthrough of the transformations, please refer to our [transform_dataframe.ipynb](https://github.com/databrickslabs/pyspark-ai/blob/master/examples/transform_dataframe.ipynb) notebook.
+For a detailed walkthrough of the transformations, please refer to our [transform_dataframe.ipynb](./docs/notebooks/transform_dataframe.ipynb) notebook. 
 
 ### Transform Accuracy Improvement: Vector Similarity Search 
 
@@ -125,7 +125,7 @@ spark_ai.activate()
 
 Now when you call df.ai.transform as before, the agent will use word embeddings to generate accurate query values.
 
-For a detailed walkthrough, please refer to our [vector_similarity_search.ipynb](./examples/vector_similarity_search.ipynb).
+For a detailed walkthrough, please refer to our [vector_similarity_search.ipynb](./docs/notebooks/vector_similarity_search.ipynb).
 
 ### Plot
 Let's create a DataFrame for car sales in the U.S.
@@ -162,7 +162,7 @@ auto_df.ai.plot("pie chart for US sales market shares, show the top 5 brands and
 ```
 ![2022 USA national auto sales_market_share by brand](docs/_static/auto_sales_pie_char.png)
 
-Please refer to [example.ipynb](https://github.com/databrickslabs/pyspark-ai/blob/master/examples/example.ipynb) for more APIs and detailed usage examples.
+Please refer to [example.ipynb](./docs/notebooks/example.ipynb) for more APIs and detailed usage examples.
 
 ## Contributing
 
